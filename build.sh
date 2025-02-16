@@ -13,7 +13,7 @@ sudo ln -sf /usr/bin/python2.7 /usr/bin/python
 # 设置环境变量
 echo "设置环境变量..." 
 export ARCH=arm64 
-export PATH=$PATH:/home/miao/android_kernel_huawei_hi6250/linux-x86_64/bin 
+export PATH=$PATH:/home/miao/android_kernel_huawei_hi6250/toolchain/bin 
 export CROSS_COMPILE=aarch64-linux-android-
 # 编译内核
 echo "开始编译内核..." 
