@@ -2,7 +2,8 @@
 # 设置脚本在发生错误时退出
 set -e
 # 安装依赖
-echo "安装依赖..." sudo apt install -y glt-core gnupg flex bison gperf build-essential zip curl zlib1g-dev \ 
+echo "安装依赖..." 
+sudo apt install -y git-core gnupg flex bison gperf build-essential zip curl zlib1g-dev \ 
   gcc-multilib g++-multilib libc6-dev-i386 lib32ncurses5-dev x11proto-core-dev libx11-dev \ lib32z1-dev 
   libgl1-mesa-dev libxml2-utils xsltproc unzip bc
 # 安装 Python 2
