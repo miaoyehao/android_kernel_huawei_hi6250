@@ -17,5 +17,6 @@ export PATH=$PATH:/home/miao/android_kernel_huawei_hi6250/toolchain/bin
 export CROSS_COMPILE=aarch64-linux-android-
 # 编译内核
 echo "开始编译内核..." 
-make ARCH=arm64 O=out merge_hi6250_defconfig make ARCH=arm64 O=out -j$(nproc)
+make ARCH=arm64 O=out merge_hi6250_defconfig 
+make ARCH=arm64 O=out -j$(nproc)
 echo "内核编译完成！"
